@@ -1,1 +1,67 @@
+{
+  "nota": "DATOS DE EJEMPLO: verifica y completa la información con fuentes oficiales del museo antes de presentar.",
+  "museo": {
+    "nombre": "Museo del Oro",
+    "ciudad": "Bogotá, Colombia",
+    "descripcion": "Museo dedicado a la orfebrería prehispánica de Colombia y al significado que los pueblos indígenas daban al oro."
+  },
+  "exposiciones": [
+    {
+      "nombre": "Colección permanente",
+      "descripcion": "Recorrido por la orfebrería de distintas culturas prehispánicas, organizado por salas."
+    }
+  ],
+  "salas": [
+    { "id": "muisca", "nombre": "Sala Muisca", "descripcion": "Piezas de la cultura muisca, que habitó el altiplano cundiboyacense, y su relación con las ceremonias y la leyenda de El Dorado." },
+    { "id": "quimbaya", "nombre": "Sala Quimbaya", "descripcion": "Orfebrería de la cultura quimbaya, de la región del río Cauca, conocida por sus objetos de uso ceremonial y cotidiano." },
+    { "id": "tairona", "nombre": "Sala Tairona", "descripcion": "Piezas de la cultura tairona, de la Sierra Nevada de Santa Marta, con figuras humanas y animales." }
+  ],
+  "piezas": [
+    {
+      "id": "balsa-muisca",
+      "sala": "muisca",
+      "nombre": "Balsa Muisca",
+      "autor": "Orfebres muiscas (autor individual desconocido)",
+      "fecha": "Periodo muisca (aprox. 600–1600 d. C.)",
+      "tecnica": "Tumbaga (aleación de oro y cobre) por fundición a la cera perdida",
+      "descripcion": "Representa una balsa con un cacique en el centro, rodeado de acompañantes y remeros. Se relaciona con la ceremonia de investidura del nuevo cacique en la laguna de Guatavita. Fue hallada en 1969 en una cueva en Pasca, Cundinamarca.",
+      "curiosidades": [
+        "Se asocia con el origen de la leyenda de El Dorado.",
+        "Fue encontrada dentro de una cueva, donde probablemente fue guardada como ofrenda."
+      ]
+    },
+    {
+      "id": "poporo-quimbaya",
+      "sala": "quimbaya",
+      "nombre": "Poporo Quimbaya",
+      "autor": "Orfebres quimbaya (autor individual desconocido)",
+      "fecha": "Periodo quimbaya clásico (aprox. 500–1000 d. C.)",
+      "tecnica": "Orfebrería en tumbaga (aleación de oro y cobre)",
+      "descripcion": "Recipiente para guardar la cal que se mezclaba con hojas de coca. Su forma es característica y sigue la de los poporos de uso ritual.",
+      "curiosidades": [
+        "Los poporos todavía se usan hoy entre pueblos de la Sierra Nevada de Santa Marta, como kogui, wiwa y arhuaco.",
+        "Se considera una de las piezas más reconocidas de la orfebrería quimbaya."
+      ]
+    },
+    {
+      "id": "pectoral-tairona",
+      "sala": "tairona",
+      "nombre": "Pectoral Tairona",
+      "autor": "Orfebres tairona (autor individual desconocido)",
+      "fecha": "Periodo tairona (aprox. 900–1600 d. C.)",
+      "tecnica": "Orfebrería en oro y aleaciones",
+      "descripcion": "Adorno colgante que se llevaba sobre el pecho. Los orfebres tairona elaboraron colgantes con figuras humanas y animales.",
+      "curiosidades": [
+        "La cultura tairona se desarrolló en la Sierra Nevada de Santa Marta."
+      ]
+    }
+  ],
+  "preguntasSugeridas": [
+    "¿Qué piezas puedo ver en el museo?",
+    "Cuéntame sobre la Balsa Muisca",
+    "¿Qué hay en la Sala Quimbaya?",
+    "Dame una curiosidad sorprendente",
+    "¿Para qué servía un poporo?"
+  ]
+}
 
