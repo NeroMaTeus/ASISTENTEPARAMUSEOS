@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asistente IA para Museos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,700;1,500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <button id="btnPanel" class="icon" aria-label="Abrir salas y piezas" aria-expanded="false">Salas</button>
+    <p class="brand" id="brand">Asistente IA para Museos</p>
+    <button id="btnNueva" class="icon">Nueva conversación</button>
+  </header>
+
+  <div class="layout">
+    <aside id="panel" aria-label="Salas y piezas">
+      <h2>Explorar el museo</h2>
+      <div id="salas"></div>
+      <button id="btnCuriosidad" class="curio">Sorpréndeme con una curiosidad</button>
+    </aside>
+
+    <main>
+      <div id="mensajes" role="log" aria-live="polite"></div>
+      <form id="form" autocomplete="off">
+        <input id="entrada" type="text" maxlength="500" placeholder="Pregunta sobre una obra, sala o autor" aria-label="Tu pregunta">
+        <button id="enviar" type="submit">Enviar</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
